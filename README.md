@@ -1,4 +1,4 @@
-# **margaretpaul.github.io**
+# margaretpaul.github.io
 
 
 ### **Projects** 
