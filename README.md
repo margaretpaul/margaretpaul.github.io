@@ -8,7 +8,7 @@
 
 
 ### **In-Class Assignments**
-- ICA1
+- [ICA1](https://margaretpaul.github.io/)
 - ICA2
 - ICA3
 - ICA4
@@ -25,7 +25,7 @@
 - ICA15
 
 ### **Weekly Assignments** 
-- WA1
+- [WA1](https://margaretpaul.github.io/)
 - WA2
 - WA3
 - WA4
