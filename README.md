@@ -6,7 +6,6 @@
 - CSS
 - JS
 
-<hr>
 
 ## In-Class Assignments
 - ICA1
@@ -24,7 +23,6 @@
 - ICA13
 - ICA14
 - ICA15
-<hr>
 
 ## Weekly Assignments 
 - WA1
@@ -42,6 +40,4 @@
 - WA13
 - WA14
 - WA15
-<hr>
-
 
