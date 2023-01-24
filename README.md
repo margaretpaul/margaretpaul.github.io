@@ -2,12 +2,14 @@
 
 
 ### **Projects** 
+
 - HTML
 - CSS
 - JS
 
 
 ### **In-Class Assignments**
+
 - [ICA1](https://margaretpaul.github.io/)
 - ICA2
 - ICA3
@@ -25,7 +27,8 @@
 - ICA15
 
 ### **Weekly Assignments** 
-- [WA1](https://margaretpaul.github.io/)
+
+- [WA1](https://margaretpaul.github.io/WA/wa1.html)
 - WA2
 - WA3
 - WA4
