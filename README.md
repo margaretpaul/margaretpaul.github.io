@@ -28,8 +28,8 @@
 
 ### **Weekly Assignments** 
 
-- [WA1](https://margaretpaul.github.io/WA/wa1.html)
-- [WA2](https://margaretpaul.github.io/WA/wa2.html)
+- [WA1](https://margaretpaul.github.io/wa/wa1.html)
+- [WA2](https://margaretpaul.github.io/wa/wa2.html)
 - WA3
 - WA4
 - WA5
