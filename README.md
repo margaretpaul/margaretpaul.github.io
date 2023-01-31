@@ -13,6 +13,8 @@
 - ICA1
 - ICA2
 - ICA3
+    - [ICA3A](https://margaretpaul.github.io/ica/ica3a.html)
+    - [ICA3B](https://margaretpaul.github.io/ica/ica3b.html)
 - ICA4
 - ICA5
 - ICA6
