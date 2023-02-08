@@ -3,7 +3,7 @@
 
 ### **Projects** 
 
-- HTML
+- [HTML](https://margaretpaul.github.io/html-midterm/page5.html)
 - CSS
 - JS
 
