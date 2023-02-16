@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    background: #ccc;
+    background-color: white;
+    padding: 1px;
+    margin: 1px;
+  }
+
+.img{
+    border-color: rgb(0, 0, 0);
+    border-top-style: solid;
+    border-bottom-style: solid;
+    position: absolute;
+    width: 800px;
+    height: auto;
+}
+
+div {
+    position: absolute;
+    display: inline;
+    width: 60px;
+    height: auto;
+  }
+
+  .img2 {
+    position: absolute;
+    width: 200px;
+    height: auto;
+    left: 311px;
+    top: 120px;
+  }
+
+  .img3 {
+    position: absolute;
+    width: 750px;
+    height: auto;
+    left: 25%;
+    top: 1000px;
+  }
