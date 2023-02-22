@@ -17,7 +17,7 @@
     - [ICA3B](https://margaretpaul.github.io/ica/ica3b.html)
 - [ICA4](https://margaretpaul.github.io/ica/ica4.html)
 - [ICA5](https://margaretpaul.github.io/ica/ica5.html)
-- ICA6
+- [ICA6](https://margaretpaul.github.io/ica/ica6-part1.html)
 - ICA7
 - ICA8
 - ICA9
