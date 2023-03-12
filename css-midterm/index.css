@@ -136,12 +136,44 @@ body{
     text-decoration: none;
 }
 
-@media only screen and (max-width: 400px) {
+@media screen and (max-width: 600px) {
     li a {
         font-size:large;}
-}
+    }
+@media screen and (max-width: 1000px) {
+    li a {
+        font-size:medium;}
+    .grid {
+        flex-direction: column;
+    }
+    #left{
+        text-align: center;
+        padding: 50px 0px;}
+    .img1{
+        padding: 20px 0px;
+        width: 70%;
+        height: auto;
+        top: 120px;
+    }
+    #name{
+        position: relative;
+        left: 10%;
+        text-align: left;
+        padding: 50px 10px;
+    }
+    #welcome{
+        position: relative;
+        left: 10%;
+        text-align: left;
+        padding: 50px 10px;
+    }
+    .resume{
+        padding: 20px 0px;
+        width: 100%;
+        height: auto;
+    }
+    .resumemain{
+        padding: 50px 50px;
+    }
 
-@media only screen and (min-width: 1500px) {
-    li a {
-        font-size:large;}
 }
