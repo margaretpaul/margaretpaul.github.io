@@ -175,5 +175,11 @@ body{
     .resumemain{
         padding: 50px 50px;
     }
+    .connectmain{
+        padding: 20px 50px;
+        }
+    .infomain{
+        padding: 20px 50px;
+        }
 
 }
