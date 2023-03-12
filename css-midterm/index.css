@@ -1,9 +1,9 @@
+/*intro*/
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 nav ul {
     margin: 0;
     padding: 0;
@@ -18,32 +18,36 @@ li a {
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
-    font-size:large;
-    
+    font-size:medium;
   }
 li a:hover {
     background-color: rgb(0, 0, 0);
     color: white;
   }
-
 body{
     background: white;
     color: black;
 }
-
 .grid {
     position: relative;
     margin: 0 60px;
     padding: 0 0px;
     max-width: 980px;
     display: flex;
-  }
-
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0; }
+    100% {
+        opacity: 1;}
+}
 #left{
     text-align: center;
     padding: 50px 0px;
 }
-
 #name{
     position: relative;
     left: 10%;
@@ -61,7 +65,6 @@ body{
 #reviews{
     padding: 0px 60px;
     text-align: left;
-
 }
 #introstuff{
     position: relative;
@@ -70,7 +73,6 @@ body{
     text-align: left;
     padding: 50px 10px;
 }
-
 .img1{
     padding: 20px 0px;
     width: 300px;
@@ -78,25 +80,53 @@ body{
     top: 120px;
 }
 
+/*resume*/
 .resume{
     padding: 20px 0px;
-    width: 80%;
+    width: 70%;
     height: auto;
 }
-
 .resumemain{
     padding: 50px 100px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0; }
+    100% {
+        opacity: 1;}
 }
 
+/*info*/
 .infomain{
     padding: 40px 100px;
-   
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0; }
+    100% {
+        opacity: 1;}
 }
 
+/*connect*/
 .connectmain{
     padding: 50px 100px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0; }
+    100% {
+        opacity: 1;}
 }
-
+    
 .connectmain a:link { 
   text-decoration: none;
   color: rgb(72, 72, 152);
@@ -106,5 +136,12 @@ body{
     text-decoration: none;
 }
 
+@media only screen and (max-width: 400px) {
+    li a {
+        font-size:large;}
+}
 
-
+@media only screen and (min-width: 1500px) {
+    li a {
+        font-size:large;}
+}
