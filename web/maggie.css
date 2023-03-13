@@ -1,0 +1,112 @@
+body{
+    background-color: rgb(255, 244, 231);
+    padding-bottom: 40%;
+
+}
+.name{
+    position:relative;
+    top: 40px;
+    font-size: 120px;
+}
+
+.page-content{
+    position: relative;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 60px;
+    top: 90px;
+}
+.navbar{
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    margin-left: 60px;
+    width: 100%;
+    background-color:  rgb(255, 244, 231);
+
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+li a:hover {
+    color: rgb(255, 244, 231);
+  }
+
+/*resume*/
+.cv{
+    position: relative;
+    margin-left: 60px;
+    top: 100px;
+}
+h1:after
+{
+    content:' ';
+    display:block;
+    border:2px solid black;
+    margin-left: 0px;
+    margin-top: 10px;
+    margin-right: 60px;
+}
+h2:after
+{
+    content:' ';
+    display:block;
+    border:1px solid black;
+    margin-left: 0px;
+    margin-right: 60px;
+    margin-top: 10px;
+}
+.newline:before
+{
+    content:' ';
+    display:block;
+    margin: 10px;
+    border:1px solid black;
+    margin-left: 0px;
+    margin-right: 60px;
+}
+.resumelink:link { 
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+  }
+.resumelink:hover {
+      color: rgb(0, 0, 0);
+      text-decoration:underline;
+  }
+
+/*about*/
+
+.about{
+    position: relative;
+    margin-left: 60px;
+    top: 100px;
+}
+
+.aboutcontent{
+    position: relative;
+    margin-right: 700px;
+
+}
+
+.connect{
+    position: relative;
+    margin-left: 60px;
+    margin-right: 0px;
+    top: 100px;
+}
