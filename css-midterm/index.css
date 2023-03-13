@@ -95,6 +95,9 @@ body{
     100% {
         opacity: 1;}
 }
+.img2{
+    width: 350px;
+}
 /*info*/
 .infomain{
     padding: 40px 100px;
@@ -167,4 +170,7 @@ body{
     .projectsmain{
         padding: 20px 50px;
         }
+    .img2{
+        width: 200px;
+    }
 }
