@@ -98,7 +98,19 @@ body{
     100% {
         opacity: 1;}
 }
-
+/*projects*/
+.projectsmain{
+    padding: 50px 100px;
+    animation: fadeInAnimation ease 3s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    }
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0; }
+    100% {
+        opacity: 1;}
+}
 /*info*/
 .infomain{
     padding: 40px 100px;
@@ -179,6 +191,9 @@ body{
         padding: 20px 50px;
         }
     .infomain{
+        padding: 20px 50px;
+        }
+    .projectsmain{
         padding: 20px 50px;
         }
 
