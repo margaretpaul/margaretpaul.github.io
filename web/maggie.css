@@ -27,18 +27,22 @@ body{
     bottom: -20px;
     right: -1%;
     z-index: 11;
-
+}
+.mpimg{
+    position: relative;
+    width: 400px;
+    left: -70px;
 }
 
 .break{
-    font-size: 80px;
+    font-size: 50px;
 }
 
-    .navbar{
+.navbar{
     overflow: hidden;
     position: fixed;
     bottom: 0;
-    margin-left: 45px;
+    margin-left: -12px;
     width: 100%;
     background-color:  rgb(255, 244, 231);
     z-index: 10;
@@ -51,6 +55,7 @@ ul {
     overflow: hidden;
     font-size: 20px;
     margin-bottom: 20px;
+    margin-left: 60px;
   }
   
 li {
@@ -171,11 +176,12 @@ h2:after
     }
     .navbar{
         position: fixed;
-        margin-left: 15px;
+        margin-left: -45px;
         z-index: 10;
     }
     ul {
-        font-size: 10px;
+        font-size: 11px;
+
       }
 
     .about{
@@ -216,8 +222,9 @@ h2:after
     .mp{
         right: -10%;
         bottom: -6%;
-
-       
+    }
+    .mpimg{
+        width: 300px;
     }
 
    
