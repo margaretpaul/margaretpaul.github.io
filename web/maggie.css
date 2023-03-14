@@ -4,6 +4,8 @@ body{
 
 }
 .name{
+    margin-left: 60px;
+    margin-right: 60px;
     position:relative;
     top: 40px;
     font-size: 120px;
@@ -16,13 +18,15 @@ body{
     margin-left: 60px;
     top: 90px;
 }
-.navbar{
+
+    .navbar{
     overflow: hidden;
     position: fixed;
     bottom: 0;
-    margin-left: 60px;
+    margin-left: 45px;
     width: 100%;
     background-color:  rgb(255, 244, 231);
+    z-index: 10;
 
 }
 ul {
@@ -100,10 +104,16 @@ h2:after
 
 .aboutcontent{
     position: relative;
-    margin-right: 700px;
+    margin-right: 60%;
 
 }
+.travel{
+    position:relative;
+    font-size: 20px;
+    margin-right: 60%;
+}
 
+/*connect*/
 .connect{
     position: relative;
     margin-left: 60px;
