@@ -196,6 +196,7 @@ h2:after
     .aboutcontent{
         position: relative;
         margin-right: 30%;
+        font-size: 12px;
     }
     .travel{
         position:relative;
