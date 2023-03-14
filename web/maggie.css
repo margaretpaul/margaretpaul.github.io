@@ -177,7 +177,7 @@ h2:after
     .navbar{
         position: fixed;
         margin-left: -45px;
-        z-index: 12;
+        z-index: 10;
     }
     ul {
         font-size: 12px;
@@ -227,6 +227,14 @@ h2:after
     .mpimg{
         width: 300px;
     }
-
+    .emaillink{ 
+        font-size: 20px;
+    }
+    .instagramlink{
+        font-size: 20px;
+    }
+    .linkedinlink{
+        font-size: 20px;
+    }
    
     }
