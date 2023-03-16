@@ -1,0 +1,30 @@
+body {
+    font-family:'Times New Roman', Times, serif;
+    width: 350px;
+    background-color: rgb(32, 32, 32);
+  }
+
+  label {
+    font-weight: bold;  
+    color: white;
+    margin-left: 20px;
+  }
+
+  div {
+    padding-bottom: 20px;
+    margin-left: 20px;
+  }
+
+  input[type="text"] {
+    padding: 5px;
+    width: 150px;
+    margin-left: 20px;
+  }
+
+  p {
+    background: #c3c3c3;
+    color: #190052;
+    padding: 30px;
+    visibility: hidden;
+     margin-left: 20px;
+  }
