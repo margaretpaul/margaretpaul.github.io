@@ -1,49 +1,75 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Maggie Paul Personal Website</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css-midterm/index.css">
+    <title>Maggie Paul</title>
 </head>
 <body>
-    <div class="title">
-        <p><strong>maggie</strong>paul</p>
-      </div>
-    <nav>
-        <ul>
-            <li>
-            <a href="/index.html">intro</a>
-            </li>
-            <li>
-            <a href="/css-midterm/info.html">info</a>
-            </li>
-            <li>
-            <a href="/css-midterm/resume.html">resume</a>
-            </li>
-            <li>
-                <a href="/css-midterm/projects.html">projects</a>
-            </li>
-            <li>
-            <a href="/css-midterm/connect.html">connect</a>
-            </li>
-        </ul>
-    </nav>
-<main class="infomain">
-    <h2>info</h2>
-    <br>
-    <h3>academic background</h3>
-    <br>
-    <p>Attended K-12 and recieved highschool diploma in 2019 from Sewickley Academy in Sewickley, Pennsyvania. </p>
-    <br>
-    <p>Studied abroad in Barcelona, Spain during the spring of 2022 attending the Universitat 
-        Autonoma de Barcelona studing International Studies, Business & Culture.</p>
-    <br>
-    <p>Current senior in the Leeds School of Business pursuing a B.S. in 
-        Business Administration with an emphasis in Marketing and a certificate in
-         Operations and Information Management, while pursuing a minor in Creative Technology 
-         and Design through the College of Engineering and Applied Science at the ATLAS Institute at CU Boulder expecting
-          to graduate May of 2023. </p>
-</main>
+    <marquee class="name" behavior="scroll" direction="left" onmouseover="this.stop();"
+    onmouseout="this.start();">
+        Maggie Paul
+    </marquee>
+    <img class="mp" src="/img/mp.png" alt="mp">
+    <div class="navbar">
+        <div>
+            <ul>
+                <li>
+                    <a href="/index.html">Title</a>
+                </li>
+                <li>
+                    <a href="/css-midterm/info.html">About</a>
+                </li>
+                <li>
+                    <a href="/css-midterm/resume.html">Resume</a>
+                </li>
+                <li>
+                    <a href="/css-midterm/connect.html">Connect</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="about">
+        <h1>About</h1>
+        <h3>Academic Background</h2>
+        <div class="aboutcontent">
+            <p>Attended K-12 and recieved high school diploma in 2019 from Sewickley Academy in Sewickley, Pennsyvania. </p>
+        
+            <p>Studied abroad in Barcelona, Spain during the spring of 2022 attending the Universitat 
+                Autonoma de Barcelona studing International Studies, Business & Culture.</p>
+        
+            <p>Current senior in the Leeds School of Business pursuing a B.S. in 
+                Business Administration with an emphasis in Marketing and a certificate in
+                Operations and Information Management, while pursuing a minor in Creative Technology 
+                and Design through the College of Engineering and Applied Science at the ATLAS Institute at CU Boulder graduating May 2023. </p>
+        </div>
+        <br>
+        <br>
+        <h3>2022 Study Abroad Travel</h2>
+            <marquee class="travel" behavior="scroll" direction="left" onmouseover="this.stop();"
+            onmouseout="this.start();">
+                Barcelona, <strong>Spain </strong>Girona, <strong>Spain</strong> Dublin, <strong>Ireland</strong> London, <strong>England</strong>
+                 Milan, <strong>Italy</strong> Venice, <strong>Italy</strong> Valencia, <strong>Spain</strong>
+                 Sitges, <strong>Spain</strong> Marseille, <strong>France</strong> Cassis, <strong>France</strong>
+                  Sevilla, <strong>Spain</strong> Paris, <strong>France</strong> Vienna, <strong>Austria</strong>
+                  Mallorca, <strong>Spain</strong> Amsterdam, <strong>Netherlands</strong> Mykonos, <strong>Greece</strong>
+                  Amalfi, <strong>Italy</strong> Lisbon, <strong>Portugal</strong> Madrid, <strong>Spain</strong>
+            </marquee>
+            <br>
+            <button type="button" class="collapsible">Expand</button>
+            <div class="content">
+              <p>Barcelona, <strong>Spain </strong> <br>Girona, <strong>Spain</strong>  <br>Dublin, <strong>Ireland</strong>  <br>London, <strong>England</strong>
+                <br>Milan, <strong>Italy</strong>  <br>Venice, <strong>Italy</strong>  <br>Valencia, <strong>Spain</strong>
+                <br>Sitges, <strong>Spain</strong>  <br>Marseille, <strong>France</strong>  <br>Cassis, <strong>France</strong>
+                <br>Sevilla, <strong>Spain</strong>  <br>Paris, <strong>France</strong>  <br>Vienna, <strong>Austria</strong>
+                <br>Mallorca, <strong>Spain</strong>  <br>Amsterdam, <strong>Netherlands</strong>  <br>Mykonos, <strong>Greece</strong>
+                <br>Amalfi, <strong>Italy</strong>  <br>Lisbon, <strong>Portugal</strong>  <br>Madrid, <strong>Spain</strong></p>
+            </div>
+    </div>
+
+    <script src="/css-midterm/index.js"></script>
+    
 </body>
 </html>
