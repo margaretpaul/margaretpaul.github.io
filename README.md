@@ -39,7 +39,7 @@
 - [WA7](https://margaretpaul.github.io/wa/wa7.html)
 - WA8
 - [WA9](https://margaretpaul.github.io/wa/wa9.html)
-- [WA10](https://margaretpaul.github.io/wa/wa10.html)
+- [WA10](https://margaretpaul.github.io/wa/wa10/wa10.html)
 - WA11
 - WA12
 - WA13
