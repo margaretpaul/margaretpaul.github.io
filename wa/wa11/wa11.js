@@ -16,7 +16,7 @@ async function getQuote() {
     }
         catch (err) {
             console.log(err);
-            alert('Failed to fetch new trivia')
+            alert('Failed to fetch new activity')
         }
 
         function random_bg_color() {

@@ -98,3 +98,9 @@ html {
       font-size: 18px;
     }
   }
+
+  p{
+    position: fixed;
+    bottom: 0
+    ;
+  }
