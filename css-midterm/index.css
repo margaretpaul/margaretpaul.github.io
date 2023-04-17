@@ -74,6 +74,7 @@ li a:hover {
     position: relative;
     margin-left: 60px;
     top: 100px;
+    margin-right: 60px ;
 }
 h1:after
 {
@@ -82,7 +83,7 @@ h1:after
     border:2px solid black;
     margin-left: 0px;
     margin-top: 10px;
-    margin-right: 60px;
+    margin-right: 0px;
 }
 h2:after
 {
@@ -90,7 +91,7 @@ h2:after
     display:block;
     border:1px solid black;
     margin-left: 0px;
-    margin-right: 60px;
+    margin-right: 0px;
     margin-top: 10px;
 }
 .newline:before
@@ -100,7 +101,7 @@ h2:after
     margin: 10px;
     border:1px solid black;
     margin-left: 0px;
-    margin-right: 60px;
+    margin-right: 0px;
 }
 .resumelink:link { 
     text-decoration: none;
@@ -111,11 +112,17 @@ h2:after
       text-decoration:underline;
   }
 
+.resumehover:hover {
+    background-color: rgb(152, 186, 210);
+
+}
+
 /*about*/
 
 .about{
     position: relative;
     margin-left: 60px;
+    margin-right: 60px;
     top: 100px;
 }
 
@@ -166,7 +173,7 @@ h2:after
 .connect{
     position: relative;
     margin-left: 60px;
-    margin-right: 0px;
+    margin-right: 60px;
     top: 100px;
 }
 
