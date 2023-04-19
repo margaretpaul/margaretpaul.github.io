@@ -5,7 +5,7 @@ function check() {
 }
 
 function submit() {
-    alert(output.textContent);
+    alert('Volume Set To  ' + output.textContent);
 }
 
 function reset() {
