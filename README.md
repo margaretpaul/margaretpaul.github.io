@@ -5,7 +5,7 @@
 
 - [HTML](https://margaretpaul.github.io/html-midterm/page5.html)
 - [CSS](https://margaretpaul.github.io/index.html)
-- JS
+- [JS](http://maggiepaul.me/js-midterm/js-midterm.html)
 
 
 ### **In-Class Assignments**
