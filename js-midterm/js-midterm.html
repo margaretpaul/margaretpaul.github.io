@@ -1,52 +1,41 @@
 <!DOCTYPE html>
-<html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>Wordle</title>
-    <link rel="stylesheet" href="/js-midterm/js-midterm.css">
-  </head>
-  <body>
-    <h1>WORDLE</h1>
-    <p>Guess a <strong>6</strong> letter word</p>
-    <p>If you guess a correct letter in the correct space, it will remain</p>
-        <div id="word-container">
-            <input type="text" id="input-word">
-            <button id="submit-button">submit</button>
-        </div>
-
-        <div id="result-container"></div>
-
-        <p>If you are having trouble, look through the word bank</p>
+<html>
+<head>
+	<title>Boulder Word Game</title>
+	<link rel="stylesheet" type="text/css" href="/js-midterm/js-midterm.css">
+</head>
+</head>
+<body>
+  <h1>Boulder Word Game</h1>
+  <p>Guess the word related to Boulder, Colorado</p>
+  <div id="word"></div>
+  <div id="guesses"></div>
+  <button class="refresh" onClick="window.location.reload();">Play Again or Restart</button>
+  <br>
+  <p>*</p>
+  <p>*</p>
+  <p>*</p>
+  <p>*</p>
+  <br>
+  <p>If you are having trouble, look to the word bank</p>
         <button class="collapsible">Word Bank</button>
-<div class="content">
-  <p>banana<br>
-    yellow<br>
-    people<br>
-    coffee<br>
-    purple<br>
-    summer<br>
-    guitar<br>
-    jacket<br>
-    friend<br>
-    beauty<br>
-    purple<br>
-    cookie<br>
-    rocket<br>
-    bottle<br>
-    camera<br>
-    church<br>
-    pencil<br>
-    window<br>
-    tongue<br>
-    school<br>
-    silver<br>
-    orange<br>
-    dragon<br>
-    rocket<br>
-    basket</p>
-</div>
-
-    <script src="/js-midterm/js-midterm.js"></script>
-  </body>
+        <div class="content">
+            <p>colorado<br>
+              boulder<br>
+              flagstaff<br>
+              buffalos<br>
+              ralphie<br>
+              sko<br>
+              flatirons<br>
+              chautauqua<br>
+              pearl street<br>
+              folsom field<br>
+              buffs<br>
+              the hill<br>
+              rocky mountains<br>
+              the fox<br>
+              boulder theater<br>
+          </div>
+	<script src="/js-midterm/js-midterm.js"></script>
+</body>
 </html>
