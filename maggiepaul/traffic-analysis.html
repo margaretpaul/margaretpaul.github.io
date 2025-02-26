@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Traffic Analysis | Margaret Paul</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #f5f5f5;
+            margin: 0;
+            font-family: Helvetica, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            padding: 1px;
+        }
+        header {
+            width: 100%;
+            background-color: #f5f5f5;
+            padding: 15px 0;
+            display: flex;
+            justify-content: flex-end;
+            align-items: center;
+            padding-right: 20px;
+        }
+        nav {
+            display: flex;
+            gap: 20px;
+        }
+        nav a {
+            color: black;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 10px;
+            transition: color 0.3s ease-in-out;
+        }
+        nav a:hover, nav a.active {
+            color: #808080;
+        }
+        .content {
+            max-width: 800px;
+            text-align: center;
+            margin-top: 150px;
+            padding: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .content h1 {
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .content h2 {
+            font-size: 22px;
+            margin-top: 20px;
+        }
+        .content ul {
+            text-align: left;
+            max-width: 600px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="design.html">Design</a>
+            <a href="data.html">Data</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
+    
+    <div class="content">
+        <h1>Analysis of Traffic Accidents in Boulder County</h1>
+        <h2>Objective</h2>
+        <p>This project aimed to analyze traffic accident severity in Boulder County using data-driven insights from traffic and weather conditions. By leveraging machine learning techniques, the goal was to identify key risk factors contributing to severe accidents and provide policy recommendations to enhance road safety.</p>
+        
+        <h2>Technical Skills & Tools Used</h2>
+        <ul>
+            <li><strong>Programming Languages:</strong> Python</li>
+            <li><strong>Tools & Libraries:</strong> Pandas, Scikit-learn, Keras</li>
+            <li><strong>Machine Learning Techniques:</strong> Logistic regression, neural networks, hyperparameter tuning</li>
+            <li><strong>Data Analysis Techniques:</strong> EDA, feature engineering, correlation analysis</li>
+        </ul>
+
+        <h2>Data Sources & Preprocessing</h2>
+        <ul>
+            <li><strong>Traffic Data:</strong> Extracted and processed 2019 traffic accident data (Excel, 42.5 MB, 121,805 records) from the Colorado Department of Transportation (CDOT).</li>
+            <li><strong>Weather Data:</strong> Integrated daily weather data from the National Oceanic and Atmospheric Administration (NOAA) to assess environmental impacts on accident severity.</li>
+            <li><strong>Data Cleaning & Integration:</strong> Merged traffic and weather datasets into a unified dataset for Boulder County accidents. Addressed missing values, removed outliers, and transformed categorical variables into numerical representations for model training.</li>
+        </ul>
+        
+        <h2>Exploratory Data Analysis (EDA) & Feature Engineering</h2>
+        <ul>
+            <li>Conducted descriptive analytics and visualized correlations between accident severity and environmental, temporal, and driver-related factors.</li>
+            <li>Engineered new features to enhance predictive modeling, including:
+                <ul>
+                    <li><strong>SPEED_VS_LIMIT:</strong> Difference between reported speed and speed limit.</li>
+                    <li><strong>Binary indicators:</strong> For driver impairment (e.g., alcohol, fatigue) and speeding.</li>
+                    <li><strong>Time-based segmentation:</strong> Accidents categorized by time of day and weather conditions.</li>
+                </ul>
+            </li>
+        </ul>
+        
+        <h2>Predictive Modeling & Machine Learning Approach</h2>
+        <ul>
+            <li><strong>Logistic Regression:</strong> Established a baseline classification model to predict accident severity based on key features.</li>
+            <li><strong>Neural Networks:</strong> Developed a more complex model with hyperparameter tuning (via Keras Tuner) to optimize accuracy.</li>
+            <li>Achieved a validation accuracy of <strong>0.731</strong> using neural networks.</li>
+        </ul>
+        
+        <h2>Key Findings & Insights</h2>
+        <ul>
+            <li><strong>Driver Behavior & Accident Types:</strong>
+                <ul>
+                    <li>Speeding and impaired driving were top contributors to severe accidents.</li>
+                    <li>Rear-end and head-on collisions were associated with higher severity levels.</li>
+                </ul>
+            </li>
+            <li><strong>Environmental & Temporal Impact:</strong>
+                <ul>
+                    <li>Accidents were more severe during nighttime and adverse weather conditions (e.g., rain, snow).</li>
+                    <li>Pedestrian and cyclist involvement significantly increased accident severity.</li>
+                </ul>
+            </li>
+        </ul>
+        
+        <h2>Impact & Recommendations</h2>
+        <ul>
+            <li><strong>Policy Implications:</strong>
+                <ul>
+                    <li>Suggested targeted speed enforcement in high-risk areas.</li>
+                    <li>Recommended enhanced road signage and lighting for critical locations.</li>
+                    <li>Proposed education campaigns on impaired driving risks.</li>
+                </ul>
+            </li>
+            <li><strong>Future Research Directions:</strong>
+                <ul>
+                    <li>Extend analysis to real-time data for dynamic risk assessment.</li>
+                    <li>Incorporate traffic flow data to refine predictive capabilities.</li>
+                    <li>Apply deep learning methods for enhanced modeling accuracy.</li>
+                </ul>
+            </li>
+        </ul>
+        
+        
+    </div>
+</body>
+</html>
